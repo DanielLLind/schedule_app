@@ -7,5 +7,10 @@ bash demo-api.sh 8081
 ```
 This will run a script that builds the project and starts it on port 8081, and executes request against the api.
 to run the unit test use
-mvn test or mvnd test
+```
+mvn test
+```
+```
+mvnd test
+```
 
