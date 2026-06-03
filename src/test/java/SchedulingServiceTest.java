@@ -7,7 +7,6 @@ import schedule.app.SchedulingService;
 import java.time.LocalDateTime;
 import java.util.List;
 import java.util.Set;
-import java.util.UUID;
 
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -31,9 +30,7 @@ public class SchedulingServiceTest {
         assertThrows(ResponseStatusException.class, () ->
                 service.addPerson("Bob", "alice@example.com")
         );
-        // assertThrows(IllegalArgumentException.class, () ->
-        //         service.addPerson("Bob", "alice@example.com")
-        // );
+
     }
 
     @Test
