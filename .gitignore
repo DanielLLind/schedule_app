@@ -1,0 +1,38 @@
+# Maven build output
+/target/
+
+# Eclipse
+.project
+.classpath
+.settings/
+
+# IntelliJ
+/.idea/
+*.iml
+
+# VS Code
+.vscode/
+
+.metals
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+
+# Generated files
+generated-sources/
+generated-test-sources/
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
