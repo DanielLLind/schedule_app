@@ -10,6 +10,7 @@ to run the unit test use
 ```
 mvn test
 ```
+or
 ```
 mvnd test
 ```
